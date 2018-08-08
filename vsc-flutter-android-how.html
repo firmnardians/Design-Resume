@@ -1,0 +1,290 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<meta charset="utf-8" />
+<title> Firman Ardiansyah || Bigan Amora </title>
+<meta name="description" content="Hei, ini adalah profile website milik Firman" />
+<meta name="keywords" content="github, firman ardiansyah, bigan amora, afirsyah" />
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-navbutton-color" content="#fff">
+<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+<meta name="author" content="Firman Ardiansyah" />
+<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+<!-- no zoom page -->
+<meta name=”viewport” content=”width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;” />
+<meta name=”viewport” content=”width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=false;” />
+<meta name=”viewport” content=”width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;” />
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<!-- no zoom page -->
+  </head>
+
+<body>
+  <div class="wrap">
+  <header>
+    <img src="images/4.png" width="200" height="200" id="profile_picture" class="animated bounceIn"/>
+    <a href="index.html"><h1>Firman Ardiansyah <img src="images/verified.png" width="25" height="25" id="verifed" /></h1></a>
+    <a href="project.html" id="mybutton">Portfolio</a> ||
+    <a href="blog.html" id="mybutton">My Blog</a>
+  </header>
+<br />
+<br />
+
+<div class="blogname">Cara Menggunakan Visual Studio Code untuk Coding Android dengan Flutter. </div>
+<img id="fotoku" src="https://i.ytimg.com/vi/fq4N0hgOWzU/maxresdefault.jpg" alt="">
+<p>
+  Visual Code Studio memang canggih. Ia bisa digunakan untuk berbagai hal.
+  Salah satunya untuk coding atau membuat aplikasi android.
+  Ini bisa jadi alternatif, buat kamu yang tidak ingin menggunakan Android Studio.
+  Karena Android Studio lumayan berat dan berjalan lambat di komputer yang spek-nya rendah.
+  Pada artikel ini, saya akan membahas cara set-up VS Code agar bisa digunakan untuk coding Android dengan Flutter.
+  Sebelumnya pastikan sudah menyiapkan Flutter dan Android Studio di komputernya.
+  <img id="fotoku" src="https://cdn.vox-cdn.com/thumbor/BQk9ZqGVRXOzPCVFqdbcLixyKKA=/0x0:1024x660/1200x800/filters:focal(435x306:597x468)/cdn.vox-cdn.com/uploads/chorus_image/image/59107547/6254.0.jpg" alt="">
+kok Android Studio?
+Bukannya kita mau ngoding dengna VS Code? Iya, Android Studio kita butuhkan untuk menginstal SDK, Image untuk emulator,
+dan membuat emulator.Karena sekarang entah kenapa kita tidak bisa menjalankan Android SDK Manager dan AVD Manager tanpa Android Studio.
+Mungkin maunya Google, supaya orang-orang tetap pakai Android Studio. Hehehe 😄
+<img id="fotoku" src="https://www1-lw.xda-cdn.com/files/2018/03/android-studio-logo.png" alt="">
+
+Oke, silahkan ukuti tutorial nya, kamu bisa instal Visual Studio Code dan Android Studio dahulu.
+<br />
+<br />
+<h3>Install Extension Flutter di VS Code</h3>
+<br />
+Pertama silahkan install beberapa extension Flutter yang dibutuhkan.
+Masuk ke manu extension, lalu ketik flutter.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/abb1ea8c0228c8516a10b2024f8eeb39d0b7b344/5ee26/img/flutter/vscode/install-flutter-extension.png" alt="">
+Setelah itu silahkan reload atau buka ulang Visual Studio Code nya.
+Setelah menginstal extension, kita akan bisa menggunakan beberapa perintah seperti:
+<ul>
+  <li>
+    Membuat Project Baru
+  </li>
+  <li>
+    Menjalankan perintah flutter doctor
+  </li>
+  <li>
+    Menjalankan Update
+  </li>
+
+</ul>
+
+Cara mengakses perintah-perintah ini, tekan <b>Ctrl+Shift+P</b> lalu ketik flutter.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/5b5c5b4f888a3a39a1fa8925722021f3c8551549/34659/img/flutter/vscode/perintah-flutter.png" alt="">
+</p>
+
+<h3>Membuat Project Flutter di Visual Studio Code</h3>
+<br />
+<br />
+Cara membuat project Flutter di VS Code:
+Tekan tombol <b>Ctrl+Shift+P </b>, lalu pilih New Project.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/5b5c5b4f888a3a39a1fa8925722021f3c8551549/34659/img/flutter/vscode/perintah-flutter.png" alt="">
+
+Kemudian kita, akan diminta menentukan nama projectnya. Isi namanya dengan huruf
+kecil dan pisah dengan garis bawah (undescore) jika namanya lebih dari dua suku kata.
+Sebagai contoh, nama project yang akan saya buat adalah petani_kode.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/7885a50ba67ce43122b9b41015e627c6115f4429/1f9f7/img/flutter/vscode/nama-project.png" alt="">
+Kemudian kita akan diminta untuk menentukan lokasi penyimpanan project.
+Kita bisa menyimpan di tempat yang diinginkan.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/e33d932d06ee9db91116f056e3fb02c1f11027c0/077ac/img/flutter/vscode/lokasi-project.png" alt="">
+Tunggulah proses pembuatannya sampai selesai.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/0bb61277b6cd55adf9a83cd01cb2e102803c9926/c5955/img/flutter/vscode/project-baru.png" alt="">
+<h3>Emulator untuk Flutter</h3>
+<br />
+Ada tiga macam emulator yang bisa digunakan untuk menjalankan aplikasi Flutter:
+<ul>
+  <li>
+    Emulator bawaan Android Studio
+  </li>
+  <li>
+    Smartphone fisik (HP sendiri)
+  </li>
+  <li>
+    Genymotion
+  </li>
+</ul>
+
+Silahkan pilih mau pakai yang mana. Saya sendiri pernah mencoba menggunakan Emulator Android Studio dan Smartphone fisik.
+Menurut saya, yang paling enak menggunakan hp sendiri. Karena dapat mengurangi resource komputer dan mudah digunakan,
+tinggal colok dengan kabel data dan Flutter akan langsung mendeteksinya.
+Tapi ada kekurangannya, yaitu: API yang bisa dipakai akan bergantung dari versi OS HP itu saja.
+<img  id="fotoku" src="https://cdn.mobilesyrup.com/wp-content/uploads/2017/08/Android-oreo-1.jpg" alt="">
+Misal:
+<br />
+Kamu ingin mencoba menggunakan API yang ada di level 28 (Oreo), sedangkan OS smartphone-mu masih Kitkat; ya… tidak akan bisa.
+Bagaimana caranya agar bisa?
+Kita bisa menggunakan emultor bawaan Android Studio atau Genymotion.
+Karena dengan emulator ini, kita bisa menginstall OS versi berapapun yang kita inginkan.
+Nah, buat yang ingin menggunakan emulator android studio, saya merekomendasikan menginstal image API level 28 (Oreo).
+Silahkan ikutli langkah-langkah berikut untuk menginstalnya…
+Buka Android Studio, Klik ikon Android SDK Manager:
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/e87aa118dc0efde8cfc9f3e502d45c74dc1b90bc/8152c/img/flutter/vscode/icon-sdk-manager.png" alt="">
+Kemudian install image untuk API Level 28:
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/a07e3103c8a43eaa96a78b6e3643c41268cfa1b3/7c084/img/flutter/vscode/sdk-manager.png" alt="">
+Setelah terinstal, buatlah emulator baru dengan image tersebut.
+Buka Android Virtial Device (AVD) dari Android Studio:
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/aa133286525aa63ad1733048c9f4691a7c2b5acb/16562/img/flutter/vscode/icon-avd.png" alt="">
+Klik Create New Virtual Device:
+
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/371c02f0d87e405d533d28062e54a498a4a1a71a/932dd/img/flutter/vscode/avd-manager.png" alt="">
+Kemudian pilih jenis prangkat yang diinginkan:
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/c1f05172d98fb0d58909e88277b58cc683de06be/01226/img/flutter/vscode/jenis-device.png" alt="">
+Berikutnya pilih system image yang akan digunakan:
+
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/e128b6132013416c6f105b3f3740cddf54d362c4/0b1cb/img/flutter/vscode/pilih-image.png" alt="">
+Terkhir, tentukan nama AVD atau emulatornya:
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/845671cb0253c6fa78a026117c8ee25dd0bdfc9a/3fcaa/img/flutter/vscode/nama-avd.png" alt="">
+Dengan demikian, kita sudah bisa menggunakan android emulator untuk menjalankan aplikasi Flutter.
+Kita bisa menutup Android Studio, karena sudah tidak dibutuhkan. Kecuali, kalau ingin ngoding di Android Studio.
+<br />
+<h3>Menjalankan Aplikasi Flutter</h3>
+<br />
+
+Sekarang, kembali ke project Flutter yang di VS Code. Coba tekan Ctrl+Shift+P lalu ketik flutter dan pilih Launch Emulator.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/e733abc6a5c32eab1c58ec7fa27b7d684cdc4006/89fb1/img/flutter/vscode/launch-emulator.png" alt="">
+Kemudian pilih emulator yang akan dibuka.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/b6025a1ac5d4087608f7bcdc904bfffe4c3da926/8588b/img/flutter/vscode/list-emulator.png" alt="">
+Tunggu beberapa saat sampai emulatornya terbuka seperti ini:
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/268f6d7a3f0152315bf76626789fd74939de96da/ac4cd/img/flutter/vscode/emulator-android.png" alt="">
+Sekarang, kita sudah siap menjalankan aplikasi Flutter-nya di emulator.
+Tekan lagi tombol Ctrl+Shift+P, kemudian pilih Select Device untuk memilih emulator yang sedang berjalan.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/45150a8f8d35ef8a1073ff43e30adc9475f3498b/548bb/img/flutter/vscode/select-device.png" alt="">
+Terakhir, masuk ke menu Debug kemudian klik Run.
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/57925634bb8becd4d541d9019c9ff8c560719f4a/4d334/img/flutter/vscode/run.png" alt="">
+
+Jika belum bisa, coba klik Config terlebih dahulu, lalu coba Run lagi…
+Tunggulah proses build apk-nya, biasanya untuk run pertama kali akan memakan waktu
+yang cukup lama. Karena harus men-download beberapa dependency untuk aplikasinya.
+<br />
+<br />
+Hasilnya:
+<img id="fotoku" src="https://d33wubrfki0l68.cloudfront.net/9b37cccff6674dfb6058dd7ad5b0ce3b52a95775/df907/img/flutter/vscode/aplikasi-flutter.png" alt="">
+Selamat 🎉…
+
+Kita sudah berhasil membuat aplikasi Flutter melalui VS Code.
+
+<br />
+<br />
+<br />
+<br />
+<h2>Apa Selanjutnya?</h2>
+Yak!
+Begitulah cara menggunakan Visual Studio Code untuk coding aplikasi Android dengan Flutter.
+Selanjutnya silahkan dioprek-oprek sendiri. 😄
+Selamat belajar.
+<br />
+<br />
+<br />
+<center>
+Referensi:<br />
+<a href="https://www.petanikode.com/flutter-vscode/">Petani Kode</a>
+</center>
+<br />
+<div class="topbtn">
+  <a href="#">Keatas</a>
+</div>
+
+<br />
+<br />
+<br />
+ </div>
+<br />
+<br />
+<footer>
+© 2018 Firman
+</footer>
+
+
+
+  <style>
+#profile_picture {
+  border-radius: 50%;
+  float: center;
+  width: 200px;
+  height: 200px;
+}
+.wrap{
+  max-width: 34rem;
+  margin: 0 auto;
+}
+h1{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+h2 {
+  padding-left: 20px;
+}
+h3 {
+  padding-left: 20px;
+}
+nav, #category, .home, header, .pagination, footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+title-name{
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 600;
+}
+.blogname{
+  font-size: 26px;
+  font-weight: bold;
+}
+footer{
+  bottom: 0px;
+  position:fixed;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  font-size: 19px;
+  margin-top: 40px;
+  padding: 10px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+s1 {
+  color: #000;
+  font-size: 40px !important;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: left;
+}
+body {
+  font-family: 'Oxygen', sans-serif;
+  color: #000;
+}
+
+.topbtn{
+  padding: 8px 15px;
+  border: 2px solid black;
+  color: white!important;
+  width: 50px;
+  float: right;
+}
+#fotoku{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#mybutton {
+  color: #fff !important;
+  font-size: 20px;
+  padding: 8px 12px;
+  background: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+  </style>
+</body>
+</html>
