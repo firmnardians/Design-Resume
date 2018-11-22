@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="icon" href="media/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="style/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <title>@firmnardians</title>
+</head>
+<body class="profile">
+    <div class="navbar">
+    <a href="profile.html">
+        <span id="navtitle" class="active">About me</span>
+    </a>
+    <a href="work.html">
+        <span id="navtitle">Skill</span>
+    </a>
+    <a href="blog.html">
+        <span id="navtitle">Blog</span>
+    </a>
+    </div>
+
+    <div id="myoverlay" class="overlay">
+        <div id="loading"></div> 
+    </div>
+
+    <div class="page2">
+        <div class="pageleft">
+            <div class="lefttitle3">
+                Who am i,
+            </div>
+    
+            <div class="lefttitle4">
+                Hei, my name <b style="font-size:20px;font-weight: 200;">Firman.</b>
+                <br> i'm just beginner Front end developer, i love design Apps and Website. <br>
+                I learned self-taught programming (autodidact).
+                <br>
+                <br>
+                <small style="font-size: 13px;font-weight: 100;">“If you can design one thing, you can design everything.” 
+                    <br> Massimo Vignelli</small>
+            </div>
+
+        <div id="myBtn" class="btn-kick2">
+            Send Email
+        </div>
+    
+        </div>
+        <div class="rightme">
+            <div class="pageright2"></div>
+        </div>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Send me email</h2>
+        </div>
+        <div class="modal-body">
+         <b>firmnardians@gmail.com</b>
+         <br>
+         <br>
+         You can send me email for job :)
+        </div>
+      </div>
+</div>
+
+<script src="style/main.js"></script>
+</body>
+</html>
+
+
+<script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+</script>

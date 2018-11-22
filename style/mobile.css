@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1060px) {
+    .pageleft{
+        font-family: 'Allerta Stencil', sans-serif;
+        padding: 20px;
+        width: auto;
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-top: 70px;
+    }
+    .btn-kick {
+        padding: 18px 61px;
+        margin-top: 50px;
+        font-size: 21px;
+    }
+    .navbar{
+        padding: 20px;
+        font-size: 20px;
+        color: #fff;
+        background: transparent;
+        font-family: 'Allerta Stencil', sans-serif;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .rightmetag {
+        display: none;
+    }
+    .modal-content {
+        position: fixed;
+        bottom: 0;
+        background-color: #fefefe;
+        width: 600px;
+        margin-left: 28%;
+        -webkit-animation-name: slideIn;
+        -webkit-animation-duration: 0.4s;
+        animation-name: slideIn;
+        animation-duration: 0.4s;
+    }
+    .pageright {
+        display: none;
+    }
+    .pageright2 {
+        display: none;
+    }
+    .banner-mobile {
+        display: none;
+    }
+}

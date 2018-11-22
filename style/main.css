@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    background: #eaebe5;
+    color: #333;
+}
+.page1{
+    height: 100vh;
+}
+.pageleft{
+    float: left;
+    font-family: 'Allerta Stencil', sans-serif;
+    padding: 20px;
+    width: 30%;
+    position: relative;
+    top: 80px;
+    right: -150px;
+}
+.pageright{
+    float: right;
+    padding: 200px;
+    width: 50%;
+    max-width: 100px;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    background-image: url(../media/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 100px;
+    left: -80px;
+}
+.lefttitle{
+    font-size: 60px;
+    color: #4cb48a;
+}
+.lefttitle2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #f29c12;
+}
+.btn-kick{
+    padding: 12px 15px;
+    background: dodgerblue;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+/**Profile**/
+
+.profile{
+    background: #04034e;
+}
+.navbar{
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#navtitle{
+    margin: 20px;
+    padding-bottom: 5px;
+}
+.navbar a.active{
+    border-bottom: 3px solid yellow;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar .active{
+    border-bottom: 3px solid yellow;
+}
+.lefttitle3{
+    font-size: 60px;
+    color: yellow;
+}
+.lefttitle4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+.pageright2{
+    float: right;
+    padding: 155px;
+    max-width: 100px;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 8px;
+    background-image: url(../media/dp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page2{
+    height: auto;
+}
+.btn-kick2{
+    padding: 12px 15px;
+    background: yellow;
+    border-radius: 4px;
+    color: #04034e;
+    font-weight: 600;
+    border: 3px solid yellow;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-kick3{
+    padding: 12px 15px;
+    background: transparent;
+    border: 3px solid yellow;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.rightme{
+    float: right;
+    box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 0.5);
+    background-size: cover;
+    z-index: 1;
+    border-radius: 8px;
+    position: relative;
+    top: 120px;
+    left: -150px;
+}
+
+/** Loader **/
+
+#loading{
+    width: 50px;
+    height: 50px;
+    border: solid 5px  #fff;
+    border-top-color: yellow;
+    border-radius: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    overflow: show;
+    bottom: 0;
+    margin: auto;
+    animation: myload  2s linear infinite;
+}
+@keyframes myload{
+    from {transform:rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+.overlay {
+    background: #04034e;       
+    top: 0;                
+    right: 0;               
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    z-index: 5;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 600px;
+    margin-left: 28%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #333;
+    color: white;
+    font-family: 'arial', sans-serif;
+}
+.modal-body {
+    padding: 20px;
+    font-size: 21px;
+    font-family: 'arial', sans-serif;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+/* Skill */
+
+.container{
+    margin: 0 35%;
+    margin-top: 20px;
+    color: #fff;
+}
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden; 
+    padding: 0;
+  }
+  
+  .tags li {
+    float: left; 
+  }
+  
+  .tag {
+    background: rgb(104, 112, 182);
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    font-family: 'Allerta Stencil', sans-serif;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+  }
+  .rightmetag {
+    float: right;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 8px;
+    position: relative;
+    top: 120px;
+    max-width: 300px;
+    left: -200px;
+}
