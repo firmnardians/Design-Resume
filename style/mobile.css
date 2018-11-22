@@ -27,15 +27,10 @@
         display: none;
     }
     .modal-content {
-        position: fixed;
-        bottom: 0;
-        background-color: #fefefe;
-        width: 600px;
-        margin-left: 28%;
-        -webkit-animation-name: slideIn;
-        -webkit-animation-duration: 0.4s;
-        animation-name: slideIn;
-        animation-duration: 0.4s;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+
     }
     .pageright {
         display: none;
